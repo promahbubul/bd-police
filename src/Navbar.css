@@ -1,0 +1,34 @@
+.navArea {
+  background-color: #b31d27;
+}
+
+.navArea .container {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navArea .container .left {
+  display: flex;
+  flex-direction: row;
+}
+.navArea .container .left a {
+  padding: 12px 0;
+  font-family: "Pragati Narrow", sans-serif;
+  padding-right: 12px;
+}
+
+.navArea .container .left a:hover {
+  background-color: #131b43;
+  transition: all ease-in-out 300ms;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.navArea .container .right .icon {
+  color: white;
+  font-size: 22px;
+  font-weight: bolder;
+}
