@@ -1,4 +1,5 @@
 import "./App.css";
+import Banner from "./Banner";
 import Navbar from "./Navbar";
 import TopHeader from "./TopHeader";
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <TopHeader />
       <Navbar />
+      <Banner />
     </>
   );
 }

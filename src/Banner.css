@@ -1,0 +1,51 @@
+.banner {
+  margin-top: 20px;
+}
+
+.banner .container {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.banner .container .left {
+  height: 309px;
+  width: 75%;
+}
+
+.banner .container .left img {
+  height: 100%;
+  width: 100%;
+}
+.banner .container .right {
+  width: 25%;
+  background: #131b43;
+  padding: 16px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.banner .container .right h5 {
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.banner .container .right img {
+  border-radius: 100%;
+  height: 160px;
+  width: 160px;
+}
+.banner .container .right a {
+  margin-top: 20px;
+  background-color: #be1e2d;
+  padding: 7px;
+
+  border-radius: 14px;
+}
