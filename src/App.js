@@ -1,6 +1,7 @@
 import "./App.css";
 import Banner from "./Banner";
 import Navbar from "./Navbar";
+import Carousel from "./Slider";
 import TopHeader from "./TopHeader";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <TopHeader />
       <Navbar />
       <Banner />
+      <Carousel />
     </>
   );
 }
