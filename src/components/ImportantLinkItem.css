@@ -1,0 +1,26 @@
+.important-link-item {
+  background-image: linear-gradient(45deg, #131b43, #242c54, #2aabd2);
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.important-link-item:hover {
+  border-left: 5px solid red;
+}
+.important-link-item .image-div {
+  background-color: black;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 50px 50px 0;
+}
+
+.important-link-item .image-div img {
+  width: 40px;
+  height: 40px;
+  border-radius: 0 50px 50px 0;
+}

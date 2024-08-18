@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import { RiArrowLeftWideLine } from "react-icons/ri";
 import { RiArrowRightWideLine } from "react-icons/ri";
 import { useRef } from "react";
+import SliderContentData from "../sliderData";
 
 function Carousel() {
   let sliderRef = useRef(null);
@@ -37,27 +38,16 @@ function Carousel() {
           className="slider-container"
         >
           {/* slide 1 */}
-          <div className="slide">
-            <img
-              src="https://www.police.gov.bd/storage/upload/gallery/QBYZ7c6P75XVQ8u2MuhxFKCTXWYqzt9GhBR4nsyU.jpg"
-              alt=""
-              className=""
-            />
-            <div className="slide-content">
-              <p className="">মহামান্য রাষ্ট্রপ্রতির সাথে সাক্ষাকার</p>
+          {SliderContentData.map((item) => (
+            <div key={item.id} className="slide">
+              <img src={item.img} alt="" className="" />
+              <div className="slide-content">
+                <p className="">{item.title}</p>
+              </div>
             </div>
-          </div>
+          ))}
+
           {/* slide 2 */}
-          <div className="slide">
-            <img
-              src="https://www.police.gov.bd/storage/upload/gallery/kdXeIE3xgKUnP4b4JzJb0PVDSwhPLIit3j3ernoR.jpg"
-              alt=""
-              className=""
-            />
-            <div className="slide-content">
-              <p className="">নবগত আইজিপি মহোদয় প্রেস বিজ্ঞপ্তি</p>
-            </div>
-          </div>
         </Slider>
         {/* Sider Button */}
         <div className="button-container">

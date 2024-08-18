@@ -1,0 +1,8 @@
+.content-area {
+  
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}

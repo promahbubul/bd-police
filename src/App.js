@@ -1,8 +1,9 @@
 import "./App.css";
-import Banner from "./Banner";
-import Navbar from "./Navbar";
-import Carousel from "./Slider";
-import TopHeader from "./TopHeader";
+import Banner from "./components/Banner";
+import ContentArea from "./components/ContentArea";
+import Navbar from "./components/Navbar";
+import Carousel from "./components/Slider";
+import TopHeader from "./components/TopHeader";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Banner />
       <Carousel />
+      <ContentArea />
     </>
   );
 }
