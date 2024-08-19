@@ -1,0 +1,28 @@
+.services {
+  padding: 0 10px 8px 10px;
+  background: #f0f0f0;
+  margin-top: 20px;
+}
+.services .service-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services .service-more a {
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  padding: 10px 14px;
+  background-color: #131b43;
+}
+
+.services .service-more a:hover {
+  background-color: red;
+}
+.services .service-card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+  margin-top: 40px;
+}

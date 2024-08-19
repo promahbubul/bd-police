@@ -1,0 +1,28 @@
+.service-card {
+  padding: 20px 12px 30px 12px;
+  background-color: white;
+  box-shadow: 2px 2px 4px 2px silver;
+}
+.service-card h3 {
+}
+.service-card .service-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.service-card .service-content .service-content-left {
+  width: 30%;
+}
+.service-card .service-content .service-content-left img {
+  width: 100%;
+}
+.service-card .service-content .service-content-right {
+  width: 70%;
+}
+.service-card .service-content .service-content-right .item {
+}
+.service-card .service-content .service-content-right .item a {
+  font-family: "Noto Serif Bengali", serif;
+  color: #131b43;
+  font-size: 15px;
+}
